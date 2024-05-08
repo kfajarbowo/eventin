@@ -14,4 +14,4 @@ Eventin adalah aplikasi yang dibuat berbasis website untuk attend pada sebuah ev
 
 ## Authors
 
--Kidung Fajar Prabowo [@kfajarbowo](https://www.github.com/kfajarbowo)
+-Kidung Fajar Prabowo [@kfajarbowo](https://www.github.com/kfajarbowo) - Absen 61
