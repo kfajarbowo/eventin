@@ -14,7 +14,7 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased ">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
             @include('layouts.navigation')
 
@@ -32,5 +32,28 @@
                 {{ $slot }}
             </main>
         </div>
+
+
+
+        <script>
+    //     document.addEventListener('DOMContentLoaded', () => {
+    //         const themeToggle = document.getElementById('theme-toggle');
+    //         const html = document.documentElement;
+
+    //         if (localStorage.getItem('theme') === 'dark') {
+    //             html.classList.add('dark');
+    //         }
+
+    //         themeToggle.addEventListener('click', () => {
+    //             if (html.classList.contains('dark')) {
+    //                 html.classList.remove('dark');
+    //                 localStorage.setItem('theme', 'light');
+    //             } else {
+    //                 html.classList.add('dark');
+    //                 localStorage.setItem('theme', 'dark');
+    //             }
+    //         });
+    //     });
+    // </script>
     </body>
 </html>
